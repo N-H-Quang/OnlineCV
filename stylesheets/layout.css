@@ -121,7 +121,13 @@ section{
 }
 .rzm_outside-header {
 	width:100%;
-	background:url(../img/header_bacground.jpg) no-repeat center center;
+	/* define linear image backgroud css */
+	
+	background:linear-gradient(
+		to bottom,
+		rgba(0,0,0, 0),
+		rgba(0,0,0, 100)
+	  ),url(../img/header_bacground.jpg);
 	min-height:300px;
 }
 .rzm_profile_nav{
